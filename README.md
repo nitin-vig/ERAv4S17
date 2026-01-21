@@ -49,6 +49,17 @@ NeuralNav is a high-performance autonomous navigation system built on the **Twin
 python citymap_assignment.py
 ```
 
+### 🎓 Educational Tool: TD3 Explainer
+For a deep dive into the underlying architecture, we've included an interactive educational tool:
+```bash
+python td3_explainer.py
+```
+This tool provides a **step-by-step visual walkthrough** of the learning process:
+- **Visual Learning Flow**: See how data moves through the Replay Buffer, Live Networks, and Target Networks.
+- **Mathematical Insights**: Real-time display of the Bellman Equation and Loss evaluation for each phase.
+- **Interactive Playback**: Manually step through the Collection, Storage, Optimization, and Synchronization phases.
+- **Backpropagation Visualization**: Watch as gradients flow back to update the Actor and Twin Critics.
+
 ### Usage
 1.  **Setup**: Click on the map to place the **Car**.
 2.  **Targets**: Click multiple times to place a sequence of **Targets**.
